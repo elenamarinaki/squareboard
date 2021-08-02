@@ -4,13 +4,35 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
+body { 
+    background-color: #170e21;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     height: 100vh;
     margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 25rem;
+
+}
+
+.square {
+    background-color: #3b0c36;
+    box-shadow: 1px 1px 2px rgb(107, 20, 107);
+    height: 1.1rem;
+    width: 1.1rem;
+    margin: 0.5rem;
+
+    transition: 2s ease;
+}
+
+.square:hover {
+    transition-duration: 0s;
 }
